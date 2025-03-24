@@ -85,10 +85,6 @@ def open_file(file_name, user_name):
     if file_name.endswith(".csv"):
         if user_name.lower() == "wil":
             file_path = "/Users/wilrsheff/Dropbox/Mac/Documents/DSCI 351/Project/MySQL/" + file_name
-        elif user_name.lower() == "colby":
-            file_path = "/Users/colbyholloway/Desktop/dsci351/dsci351 project/dsci project databases/csv sets/" + file_name
-        elif user_name.lower() == "noel":
-            file_path = "/Users/noelcrisostomo/Desktop/dsci project databases/csv sets/" + file_name
         else:
             file_path = input("Enter the file path for " + file_name + ": ")
         with open(file_path, mode="r", encoding="ISO-8859-1") as csv_file:
@@ -98,10 +94,6 @@ def open_file(file_name, user_name):
     elif file_name.endswith(".json"):
         if user_name.lower() == "wil":
             file_path = "/Users/wilrsheff/Dropbox/Mac/Documents/DSCI 351/Project/MongoDB/" + file_name
-        elif user_name.lower() == "colby":
-            file_path = "/Users/colbyholloway/Desktop/dsci351/dsci351 project/dsci project databases/json sets/" + file_name
-        elif user_name.lower() == "noel":
-            file_path = "/Users/noelcrisostomo/Desktop/dsci project databases/json sets/" + file_name
         else:
             file_path = input("Enter the file path for " + file_name + ": ")
         with open(file_path, mode="r", encoding="utf-8") as json_file:
