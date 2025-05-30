@@ -1,5 +1,7 @@
 # ChatDB: AI-Assisted SQL & NoSQL Query Generator
-### Python | MySQL | MongoDB
+
+Wil Sheffield  
+May 2025
 
 ## Overview
 ChatDB is an interactive database assistant that dynamically generates SQL and NoSQL queries for users.  
@@ -14,8 +16,8 @@ It allows users to:
 - **MongoDB** (NoSQL execution)
 
 ## Files in this Repository
-- `chatdb.py` → Python script for query generation
-- `ChatDB Summary Report.pdf` → Summary report of the project
+- `01_final_code.py` → Python script for query generation
+- `02_final_report.pdf` → Summary report of the project
 - `SampleData/` → Example datasets (CSV, JSON)
 
 ## How to Use
@@ -26,7 +28,7 @@ It allows users to:
 2. Install dependencies:
    pip install pandas pymongo mysql-connector-python
 3. Run the script:
-   python chatdb.py
+   python final_code.py
 4. Enter your natural language query, and ChatDB will generate an SQL or NoSQL query.
 
 ## Sample Query Output
